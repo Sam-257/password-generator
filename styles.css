@@ -1,0 +1,88 @@
+
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2E0249;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background: #fff;
+    background: #570A57;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 20px;
+    padding: 10px 15px;
+    outline: none;
+    width: 80%;
+}
+
+#showPassword,
+#copyPassword {
+    background: #F806CC;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#generatePassword {
+    background: #A91079;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#generatePassword:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
