@@ -35,3 +35,7 @@ function copyPassword() {
     alert("Generate password to copy!");
   }
 }
+
+function test() {
+  console.log('hiiii');
+}
